@@ -1,0 +1,63 @@
+/* Custom form styles */
+.input-icon-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6b7280;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.input-icon-container textarea ~ .input-icon {
+  top: 24px;
+  transform: none;
+}
+
+.input-icon-container input,
+.input-icon-container select,
+.input-icon-container textarea {
+  padding-left: 48px !important;
+}
+
+.form-input-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.booking-card {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.booking-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Button gradient effect */
+.btn-gradient {
+  background-image: linear-gradient(to right, #2563eb, #1d4ed8);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background-image: linear-gradient(to right, #1d4ed8, #1e40af);
+  transform: scale(1.02);
+}
+
+/* Dark mode adjustments */
+.dark .input-icon {
+  color: #9ca3af;
+}
+
+.dark .booking-card {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .form-input-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
