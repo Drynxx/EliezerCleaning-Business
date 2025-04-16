@@ -35,6 +35,7 @@ import { useInView } from "react-intersection-observer"
 import { ContactSection } from "./contact-section"
 import { FloatingSocialButtons } from "./floating-social-buttons"
 import { SteamCleaningSection } from "./steam-cleaning-section"
+import StructuredData from "./structured-data"
 
 // Define placeholder images
 const logoImage = "/logo.png"
@@ -203,6 +204,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 dark:text-white transition-colors duration-200">
+        <StructuredData />
         {notification.show && (
           <Notification
             title={notification.title}

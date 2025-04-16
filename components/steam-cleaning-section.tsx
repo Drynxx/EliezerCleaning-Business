@@ -40,7 +40,7 @@ const ServiceDetail = ({ title, description, icon, initiallyOpen = false }: Serv
           transition={{ duration: 0.3 }}
           className="p-4 bg-white dark:bg-gray-800"
         >
-          <p className="text-gray-700 dark:text-gray-300">{description}</p>
+          <p className="text-gray-700 dark:text-gray-300">{description}</
         </motion.div>
       )}
     </Card>
@@ -177,14 +177,14 @@ export function SteamCleaningSection() {
           >
             <div className="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="/car-cleaning.jpeg"
-                alt="Curățenie profesională cu aburi"
+                src="/steam-cleaning.jpg"
+                alt="Curățenie profesională cu aburi pentru canapele"
                 className="object-cover w-full h-full rounded-2xl transform transition-transform hover:scale-105 duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-2xl"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">Curățenie Auto cu Aburi</h3>
-                <p className="text-white/90">Revitalizăm interiorul mașinii tale</p>
+                <h3 className="text-2xl font-bold mb-2">Curățare cu Aburi</h3>
+                <p className="text-white/90">Revitalizăm mobilierul și tapițeriile</p>
               </div>
             </div>
 
