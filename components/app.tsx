@@ -461,7 +461,7 @@ export default function App() {
                   >
                     <div className="grid grid-cols-3 gap-2 text-center">
                       <div>
-                        <p className="text-2xl font-bold text-white">500+</p>
+                        <p className="text-2xl font-bold text-white">100+</p>
                         <p className="text-xs text-blue-200">Clienți Mulțumiți</p>
                       </div>
                       <div>
